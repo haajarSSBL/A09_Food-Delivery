@@ -1,7 +1,99 @@
 /* HEADER */
 
 /* TOP WRAPPER */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #EFE8E6;
+}
 
+a {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+body {
+    font-family: "rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555555;
+    width: 1440px;
+    height: 1026px;
+}
+
+.clear {
+    clear: left;
+}
+
+.text-box {
+    margin-left: 100px;
+    margin-top: 192px;
+}
+
+.text-box h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.text-box p {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.text-box a{
+    font-size: 20px;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 75px;
+    color: #333333;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #EFE8E6;
+    border: 2px solid #FFFFFF;
+}
+
+
+.gambar-2 img {
+    position: absolute;
+    width: 370px;
+    height: 345px;
+    left: 970px;
+    top: 192px;
+}
+
+.gambar-1 img {
+    position: absolute;
+    width: 370px;
+    height: 354px;
+    left: 100px;
+    top: 592px;
+}
+
+.gambar-3 img {
+    position: absolute;
+    width: 370px;
+    height: 354px;
+    left: 535px;
+    top: 592px;
+}
+
+.gambar-4 img {
+    position: absolute;
+    width: 370px;
+    height: 354px;
+    left: 970px;
+    top: 592px;
+}
 /* ABOUT */
 
 /* MENU */
